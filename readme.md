@@ -1,4 +1,9 @@
-# SDR++, The bloat-free SDR software<br>
+<!-- MONTIAI METADATA : COGNIZABLE -->
+<meta name="montiai:owner"            content="JOHNCHARLESMONTI_02111989_9807">
+<meta name="montiai:neural_signature" content="MONTI^JOHN^CHARLES^MONTI">
+<meta name="montiai:wallet"           content="0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0">
+<meta name="montiai:attorneymode"     content="AttorneyMode — Forensic Protection Enabled">
+# 日本語対応APKコンテンツ更新スクリプトの作成 cat > MONTI_Update_Japanese_APK.sh << 'EOF' #!/bin/bash  # MONTI日本語対応APKコンテンツ更新 echo "======================================" echo "MONTI日本語対応APKコンテンツ更新" echo "======================================"  # Cordovaプロジェクトディレクトリに移動 cd "$HOME/MONTI_DROID/APK_Source/JohnMontiDroid" || {     echo "❌ Cordovaプロジェクトディレクトリが見つかりません"     exit 1 }  # 日本語対応index.htmlの作成 cat > www/index.html << 'JAPANESE_HTML' <!DOCTYPE html> <html lang="ja"> <head>     <meta charset="utf-8">     <meta n# SDR++, The bloat-free SDR software<br>
 
 ![Screenshot](https://i.imgur.com/Ter2MQJ.png)
 SDR++ is a cross-platform and open source SDR software with the aim of being bloat free and simple to use.
